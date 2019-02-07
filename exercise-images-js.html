@@ -32,14 +32,11 @@
 
     <script>
 
-    function showImage(){
-    document.querySelector('#one').style.display = 'block';
-    document.querySelector('#two').style.display = 'block';
-    document.querySelector('#three').style.display = 'block';
-
+    function showImage(which){
+    document.querySelector(which).style.display = 'block';
     }
 
-    showImage();
+    showImage('#one');
 
 
 
