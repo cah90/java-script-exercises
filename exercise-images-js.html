@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercise</title>
+    <style>
+
+    h1 {
+      color: #FF1493;
+    }
+
+  img {
+      width: 250px;
+      display: none;
+    }
+
+    </style>
+
+
+  </head>
+  <body>
+    <h1>Exercise with Images</h1>
+    <h2>Modifying CSS with JS</h2>
+
+    <img id="one" src="images/beijinho.jpg">
+    <img id="two" src="images/brigadeiro.jpg">
+    <img id="three" src="images/pao-de-queijo.jpeg">
+
+
+
+
+
+    <script>
+
+    function showImage(){
+    document.querySelector('#one').style.display = 'block';
+    document.querySelector('#two').style.display = 'block';
+    document.querySelector('#three').style.display = 'block';
+
+    }
+
+    showImage();
+
+
+
+
+    </script>
+  </body>
+</html>

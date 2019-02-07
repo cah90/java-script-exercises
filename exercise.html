@@ -1,0 +1,93 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+<div id="page">
+  <h1 id="header">List</h1>
+  <h2>Buy Groceries</h2>
+  <ul>
+    <li id="one" class="hot"><em>fresh</em> figs</li>
+    <li id="two" class="hot">pine nuts</li>
+    <li id="three" class="hot">honey</li>
+    <li id="four">balsamic vinegar</li>
+  </ul>
+<img src="images/brigadeiro.jpg" width="250">
+
+
+
+  <script>
+  //Select One Element
+  /*var x = document.getElementById('three');
+  console.log(x);
+
+  var y = document.querySelector("#two");
+  console.log(y);
+
+  var a = document.querySelector(".hot");
+  console.log(a);
+
+  //Select Multiple Elements
+  var b = document.getElementsByClassName("hot");
+  console.log(b);
+
+  var c = document.querySelectorAll(".hot");
+  console.log(c);
+
+  //Traversing Between Element Nodes
+
+  var d = document.querySelector("#one");
+
+  console.log(d.nextSibling.nextSibling);
+
+  var f = d.parentNode;
+  console.log(f);
+
+  //Access and Update Text Nodes
+
+  var s = document.getElementById("two");
+
+  var img = document.querySelector("img");
+  console.log(img);
+  var result = img.getAttribute("src");
+  console.log(result);
+  img.setAttribute("src", "images/beijinho.jpg");
+  console.log(img.set);
+
+  var one = document.getElementById("one");
+  one.innerHTML = "Sweet <em>potatos</em>"
+
+  var father = document.querySelector("ul");
+  var kids = father.innerHTML;
+  var newKid = "<li id='five'>apple</li>";
+  father.innerHTML = kids + newKid;
+  console.log(father); */
+
+
+  var parentUl = document.querySelector("ul");
+  var kidLi = document.createElement("li");
+  var text = document.createTextNode("pineapple");
+  kidLi.appendChild(text);
+  parentUl.appendChild(kidLi);
+
+
+/* example
+var mydiv = document.querySelector('div');
+var myp = document.createElement('p');
+mytext = document.createTextNode('asdfasdf');
+
+
+myp.appendChild(mytext); <p>asdfasdfasdf</p>
+mydiv.appendChild(myp) <div><p>asdfasdfadsf</p></div>
+*/
+
+
+
+
+
+  </script>
+</div>
+</body>
+</html>
