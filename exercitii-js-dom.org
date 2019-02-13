@@ -1,0 +1,23 @@
+** Initial html page with three images and modify the CSS of images from js
+Make a simple html with a part of CSS and a part of JS. The JS script can be included or directly in the page.
+The html page should also include three images. Make the css part in a way that all images are hidden by default. (so you will not see them in the page)
+Then, make a function in javascript that takes in image id, and makes it visible.
+
+For example, the javascript call looks like:
+
+showImage('one') -> this will find the image with the id #one and display it in the page
+
+
+
+** Continuing the above exercise make another function moves the image
+So when starting, in CSS, all images are hidden. To make one visible, reuse your work from your previous exercise and call: showImage('one')
+Them make this other function, that moves the image to the right with 10px
+For example: moveImageRight('one') -> this will move the image with 10px to the left. Tip: the image needs to be positioned absolute from css (with some top and left). 
+Then when you call the function need to modify the top property, and add 10px to it.
+
+
+** Move the image on click
+Read about javascript events. Make a button (or link) that calls a function on click. The function that is executed on click is the one above, that moves the image.
+Make also a button that moves the image to the left.
+
+
